@@ -1,8 +1,8 @@
 # Lista de processos simulados com seus identificadores (IDs)
-processos = [1, 2, 3, 4, 5]  # Quanto maior o ID, mais "poderoso" o processo
+processos = [1, 2, 3, 4]  # Quanto maior o ID, mais "poderoso" o processo
 
 # O processo com o maior ID é inicialmente considerado o coordenador
-coordenador = 5  
+coordenador = 4  
 
 # Função que simula a falha do processo coordenador
 def falha_do_coordenador():
