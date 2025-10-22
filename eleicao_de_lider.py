@@ -31,4 +31,6 @@ def eleicao(iniciador):
 
 #Atividade - Simular uma eleição de líder com 4 processos.
 falha_do_coordenador()
+processos.remove(4)
 eleicao(2)
+print(f"Coordenador atual: {coordenador}")
