@@ -1,3 +1,2 @@
 3. Discutir diferenças entre RPC e REST API.
-
 Enquanto o RPC permite a execução de funções remotas como se fossem locais, sendo mais rápido e usado em comunicações internas entre sistemas, o REST é baseado em recursos acessados por URLs e métodos HTTP, com foco em padronização e interoperabilidade. E além disso, o RPC é mais acoplado e eficiente, enquanto o REST é mais flexível e amplamente compatível com diferentes plataformas.
