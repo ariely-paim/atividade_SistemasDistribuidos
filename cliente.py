@@ -5,7 +5,7 @@ import xmlrpc.client
 proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")
 
 # Chama a função remota 'soma' passando dois parâmetros
-resultado = proxy.soma(10, 9)
+resultado = proxy.soma(22, 6)
 
 # Exibe o resultado retornado pelo servidor
 print("Resultado da soma remota:", resultado)
