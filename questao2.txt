@@ -1,1 +1,3 @@
 2. Executar o exemplo RPC e observar a comunicação.
+No primeiro momento, o servidor RPC não encontrará nenhum método registrado com o nome "soma", já que está registrado como "subtração", e retornará um erro.
+Após a correção do registro do nome da função remota, quando o cliente enviar a solicitação chamando o método "soma" com os parâmetros 22 e 6, o servidor vai executar a função, retornar o resultado 28 e enviar de volta para o cliente.
