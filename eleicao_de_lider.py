@@ -28,3 +28,7 @@ def eleicao(iniciador):
         # O processo com o maior ID assume a liderança
         coordenador = max(maiores)
         print(f"Processo {coordenador} foi eleito como novo coordenador.")
+
+#Atividade - Simular uma eleição de líder com 4 processos.
+falha_do_coordenador()
+eleicao(2)
